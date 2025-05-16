@@ -1,0 +1,179 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--secondary-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+
+}
+:root{
+    --primary-color: #000;
+    --secondary-color: #fff;
+    --accent-color: #FF2171;
+}
+header{
+    /* top and bottom | left and right */
+    padding: 1% 5%;
+    display: flex;
+    /* border: red 1px solid; */
+    gap: 20svw;
+    position: sticky;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    height:max-content;
+     align-items: center;
+  justify-content: space-around;
+}
+
+.logo img {
+    height: 10vh;
+    /* display: flex; */
+    float: left;
+    /* border: red 1px solid; */
+    flex: 1;
+    
+}
+
+.sitename{
+    /* display: flex; */
+    text-align: center;
+    /* border: red 1px solid; */
+    flex: 2;
+    font-size: 3vh;
+    font-weight: 100;
+}
+
+.pink-text{
+    color: var(--accent-color);
+}
+
+.navbar-div{
+    /* border: red 1px solid; */
+    flex: 3;
+    
+}
+.navbar a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: var(--accent-color);
+}
+
+.navbar li{
+    display: inline;
+    border-right: 1px solid var(--secondary-color);
+    padding: 2%;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+  justify-content: space-around;
+  /* border: red 1px solid; */
+  padding: 1% 5%;
+  gap: 1%;
+  flex-wrap: wrap;
+}
+
+.first-scroll-left{
+    flex: 1;
+    width: 50%;
+    /* border: red 1px solid; */
+    padding: 2% 0;
+}
+
+.primary-btn{
+    background-color: var(--accent-color);
+    padding: 1% 5%;
+    margin-top: 1%;
+    color: var(--secondary-color);
+    text-decoration: none;
+    border: none;
+}
+
+.first-scroll-right img{
+    height: 75vh;
+}
+
+.our-services{
+    padding: 5%;
+    text-align: center;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    
+}
+
+.our-services li{
+    text-decoration: none;
+    display: inline;
+    padding: 2% 2%;
+}
+
+.video-section{
+    display: flex;
+    padding : 5%;
+    gap: 5%;
+}
+.pricelist-table{
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+     color: var(--secondary-color);
+    /* border: red 1px solid; */
+    height: 20rem;
+    width: 100%;
+    
+}
+.pricelist{
+    margin: auto;
+     /* border: red 1px solid; */
+     background-color: var(--primary-color);
+     color: var(--secondary-color);  
+}
+
+.pricelist td{
+/* padding: 2rem 2rem; */
+     border: 1px solid var(--secondary-color);
+}
+
+.pricelist td:nth-child(odd){
+    text-align: right;
+}
+
+footer p{
+    line-height: 0.5vh;
+    font-size: small;
+}
+
+.contact-us{
+    display: flex;
+    padding: 1%;
+    gap: 25rem;
+    /* border: red 1px solid; */
+    flex-wrap: wrap;
+}
+
+.contactus-form{
+    flex: 1;
+    /* border: red 1px solid; */
+    text-align: right;
+}
+
+.footer-border {
+  border: none;                        /* Removes default HR style */
+  border-top: 1px solid var(--accent-color);  /* Custom thin top border */
+  width: 25rem;                         /* Adjust width as needed */
+  margin:  auto;                   /* Centers the HR horizontally */
+}
+
+.contact-details{
+    text-align: left;
+    flex: 1;
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
